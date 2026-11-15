@@ -6,14 +6,30 @@ from dotenv import load_dotenv
 from google import genai
 
 
+# load_dotenv()
+
+# API_KEY = os.getenv("GEMINI_API_KEY", "")
+# MODEL_NAME = os.getenv(
+#     "GEMINI_MODEL",
+#     "gemini-2.5-flash"
+# )
+
 load_dotenv()
 
-API_KEY = os.getenv("GEMINI_API_KEY", "")
-MODEL_NAME = os.getenv(
-    "GEMINI_MODEL",
-    "gemini-2.5-flash"
-)
+import streamlit as st
 
+try:
+    API_KEY = st.secrets.get(
+        "GEMINI_API_KEY",
+        os.getenv("GEMINI_API_KEY", "")
+    )
+    MODEL_NAME = st.secrets.get(
+        "GEMINI_MODEL",
+        os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+    )
+except Exception:
+    API_KEY = os.getenv("GEMINI_API_KEY", "")
+    MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
 def get_client():
     """Return an AI client if an API key is available."""
