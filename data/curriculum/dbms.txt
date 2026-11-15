@@ -1,0 +1,43 @@
+Subject: DBMS
+
+Topic: Database
+
+A database is an organized collection of related data.
+
+Topic: Database Management System
+
+A Database Management System, or DBMS, is software used to create, manage, retrieve, and update data in a database.
+
+A DBMS helps users organize data, control access, and maintain data consistency.
+
+Topic: Relational Database
+
+A relational database stores data in tables made up of rows and columns.
+
+A primary key uniquely identifies a row in a table.
+
+A foreign key establishes a relationship with a key in another table or in the same table.
+
+Topic: SQL
+
+SQL stands for Structured Query Language.
+
+SQL is used to work with relational databases. It supports operations such as retrieving, inserting, updating, and deleting data.
+
+The SELECT statement retrieves data.
+
+The INSERT statement adds records.
+
+The UPDATE statement changes existing records.
+
+The DELETE statement removes records.
+
+Topic: Database Normalization
+
+Normalization organizes relational database tables to reduce unnecessary duplication and improve data integrity.
+
+First Normal Form requires each field to contain an atomic value and prohibits repeating groups.
+
+Second Normal Form requires First Normal Form and removes partial dependencies on a candidate key.
+
+Third Normal Form requires Second Normal Form and addresses transitive dependencies of non-key attributes on candidate keys.

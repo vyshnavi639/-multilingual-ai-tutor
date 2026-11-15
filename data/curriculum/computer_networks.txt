@@ -1,0 +1,57 @@
+Subject: Computer Networks
+
+Topic: Introduction to Computer Networks
+
+A computer network is a group of interconnected computing devices that communicate and share resources. Networks can share files, printers, applications, and internet connections.
+
+Topic: Network Devices
+
+A hub is a networking device that sends incoming data to all connected ports.
+
+A switch forwards data to the appropriate destination port using information in its MAC address table.
+
+A router connects different networks and forwards packets using network-layer addressing, typically IP addresses.
+
+Topic: Network Topologies
+
+A network topology describes how devices and connections are arranged in a network.
+
+In a star topology, devices connect to a central device.
+
+In a bus topology, devices share a common communication line.
+
+In a ring topology, devices form a circular arrangement.
+
+Topic: OSI Model
+
+The OSI model organizes network communication into seven layers.
+
+The seven layers are Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+The Physical layer transmits raw bits.
+
+The Data Link layer handles communication between directly connected nodes and supports framing and error detection.
+
+The Network layer handles logical addressing and routing.
+
+The Transport layer supports end-to-end communication between applications.
+
+The Session layer manages communication sessions.
+
+The Presentation layer handles data representation and transformations.
+
+The Application layer provides network services to applications.
+
+Topic: IP Addressing
+
+An IP address identifies a network interface for communication using the Internet Protocol.
+
+IPv4 addresses are 32 bits long.
+
+IPv6 addresses are 128 bits long.
+
+Topic: TCP and UDP
+
+TCP is a transport-layer protocol that provides reliable, ordered delivery of data.
+
+UDP is a transport-layer protocol that sends datagrams without providing the same delivery guarantees as TCP.
