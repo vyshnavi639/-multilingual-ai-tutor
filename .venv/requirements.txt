@@ -1,5 +1,0 @@
-streamlit
-google-genai
-scikit-learn
-pypdf
-python-dotenv
